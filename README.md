@@ -36,7 +36,7 @@ python --version
 
 7. Run GHOST
 
-python ghost.py
+python GHOST.py
 
 ---
 
