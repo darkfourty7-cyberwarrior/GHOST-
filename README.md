@@ -2,7 +2,7 @@
 
 ⚡ DARK 47
 
-"GHOST@DARK47" (https://raw.githubusercontent.com/darkfourty7-cyberwarrior/GHOST-/main/Screenshot_20260911_122149_Termux.jpg)
+"GHOST@DARK47" 🖼 picture of tool = (https://raw.githubusercontent.com/darkfourty7-cyberwarrior/GHOST-/main/Screenshot_20260911_122149_Termux.jpg)
 
 🛡️ Defensive / Authorized Security Assessment Toolkit
 
