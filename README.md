@@ -128,7 +128,7 @@ git clone https://github.com/darkfourty7-cyberwarrior/GHOST-.git
 
 cd GHOST-
 
-python ghost.py
+python GHOST.py
 
 ---
 
