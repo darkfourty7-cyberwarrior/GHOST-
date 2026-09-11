@@ -38,8 +38,6 @@ python --version
 
 python ghost.py
 
-«If your Python file has a different filename, replace "ghost.py" with the actual filename.»
-
 ---
 
 🖥️ Usage
