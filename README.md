@@ -10,9 +10,7 @@ A Python-based defensive and authorized security assessment toolkit for security
 
 📸 Screenshot
 
-«Screenshot: "Screenshot_20260911_110423_Termux.jpg"»
-
-After uploading the screenshot to this repository, add it here using GitHub's Insert image option.
+"GHOST Security Console" (./Screenshot_20260911_110423_Termux.jpg)
 
 ---
 
@@ -20,14 +18,14 @@ After uploading the screenshot to this repository, add it here using GitHub's In
 
 - 🔎 DNS Information
 - 🔌 TCP Port & Service Scanner
-- 🌐 Web Security Header Audit
+- 🌐 Web Security Audit
 - 🔐 TLS / Certificate Audit
 - 🛡️ Security Risk Analysis
 - 📄 JSON Security Reports
 - 🌐 HTML Security Reports
 - 🖥️ Local Network Information
-- 🎨 Dark Terminal Interface
 - ⚡ Multi-threaded Port Checking
+- 🎨 Dark Terminal Interface
 
 ---
 
@@ -49,7 +47,7 @@ pkg install python -y
 
 git clone https://github.com/darkfourty7-cyberwarrior/GHOST-.git
 
-5️⃣ Enter GHOST
+5️⃣ Enter the GHOST folder
 
 cd GHOST-
 
@@ -61,7 +59,7 @@ python --version
 
 python ghost.py
 
-«If your Python file has a different filename, replace "ghost.py" with the actual filename.»
+«Replace "ghost.py" with the actual Python filename if your file has a different name.»
 
 ---
 
@@ -81,7 +79,7 @@ python ghost.py
 
 📄 REPORTS
 
-GHOST generates security assessment reports in JSON and HTML formats.
+GHOST can generate:
 
 ghost_security_report.json
 
@@ -89,15 +87,15 @@ ghost_security_report.html
 
 ---
 
-🔐 SECURITY
+🔐 SECURITY FUNCTIONS
 
-GHOST performs defensive checks including:
+GHOST includes defensive checks for:
 
 - DNS resolution
-- Common TCP port checking
-- HTTP security-header checks
-- TLS connection and certificate information
-- Basic risk scoring
+- Common TCP ports
+- HTTP security headers
+- TLS / certificate information
+- Basic security risk scoring
 - Local network information
 
 ---
@@ -116,10 +114,12 @@ The author is not responsible for misuse of this software.
 
 DARK 47
 
-GHOST SECURITY CONSOLE v3.0
+GHOST Security Console v3.0
+
+Made by DARK 47
 
 ---
 
 ⭐ SUPPORT
 
-If you find GHOST useful, consider giving the repository a ⭐ on GitHub.
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
