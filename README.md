@@ -1,95 +1,100 @@
 👻 GHOST SECURITY CONSOLE
 
-DARK 47
+⚡ DARK 47
 
-"GHOST@DARK47" picture of tool  (https://raw.githubusercontent.com/darkfourty7-cyberwarrior/GHOST-/main/Screenshot_20260911_110423_Termux.jpg)
+"GHOST@DARK47" (https://raw.githubusercontent.com/darkfourty7-cyberwarrior/GHOST-/main/Screenshot_20260911_122149_Termux.jpg)
 
-Defensive / Authorized Security Assessment Toolkit
+🛡️ Defensive / Authorized Security Assessment Toolkit
 
-Made by DARK 47
-
----
-
-Features
-
-- Target analysis
-- DNS resolution
-- Common TCP port scanning
-- HTTP security-header audit
-- TLS / SSL certificate audit
-- DNS information
-- Local network information
-- Security risk analysis
-- JSON report generation
-- HTML report generation
-- Full authorized security scan
-- Termux / Linux support
+🔥 Made by DARK 47
 
 ---
 
-Installation
+🚀 Features
 
-1. Update Termux
+- 🎯 Target analysis
+- 🌐 DNS resolution
+- 🔌 Common TCP port scanning
+- 🛡️ HTTP security-header audit
+- 🔐 TLS / SSL certificate audit
+- 📡 DNS information
+- 💻 Local network information
+- ⚠️ Security risk analysis
+- 📄 JSON report generation
+- 🌍 HTML report generation
+- 🔎 Full authorized security scan
+- 📱 Termux / Linux support
+
+---
+
+📲 Installation
+
+1️⃣ Update Termux
 
 pkg update -y
 
-2. Install Git
+2️⃣ Install Git
 
 pkg install git -y
 
-3. Install Python
+3️⃣ Install Python
 
 pkg install python -y
 
-4. Clone GHOST
+4️⃣ Clone GHOST
 
 git clone https://github.com/darkfourty7-cyberwarrior/GHOST-.git
 
-5. Enter the folder
+5️⃣ Enter the folder
 
 cd GHOST-
 
-6. Check Python
+6️⃣ Check Python
 
 python --version
 
-7. Run the program
+7️⃣ Run the program
 
 python ghost.py
 
 ---
 
-Usage
+🖥️ Usage
 
 Start the program:
 
 python ghost.py
 
-The console provides options for authorized security assessment, including port scanning, web security checks, TLS inspection, DNS information, and report generation.
+The console provides options for authorized security assessment, including:
+
+🔌 Port scanning
+🌐 Web security checks
+🔐 TLS inspection
+📡 DNS information
+📊 Security risk analysis
+📄 Report generation
 
 ---
 
-Reports
+📊 Reports
 
 GHOST can generate:
 
-ghost_security_report.json
+📄 "ghost_security_report.json"
 
-and:
-
-ghost_security_report.html
+🌍 "ghost_security_report.html"
 
 ---
 
-Security
+🛡️ Security
 
 Use this project only for systems you own or have explicit permission to test.
 
-Do not scan or assess unauthorized systems, networks, or websites.
+🔒 Do not scan or assess unauthorized systems, networks, or websites.
 
 ---
 
-Disclaimer
+⚠️ Disclaimer
 
 GHOST Security Console is provided for educational and authorized defensive security assessment purposes only.
 
@@ -97,9 +102,20 @@ The author is not responsible for misuse of this software or for activity perfor
 
 ---
 
-Author
+👤 Author
 
-DARK 47
+🖤 DARK 47
 
-GHOST@DARK47
+👻 GHOST@DARK47
 
+🔥 Made by DARK 47
+
+---
+
+⭐ Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub.
+
+👻 GHOST@DARK47
+
+⚡ DARK 47
