@@ -1,14 +1,33 @@
-- ⚠️ Basic security risk analysis
-- 📄 JSON report generation
-- 🌍 HTML report generation
-- 📊 Full security scan
-- 💻 Termux / Linux compatible
-- 🎨 Terminal-based security console
-- ⚡ Lightweight Python implementation
+👻 GHOST SECURITY CONSOLE
+
+DARK 47
+
+"GHOST@DARK47" (https://raw.githubusercontent.com/darkfourty7-cyberwarrior/GHOST-/main/Screenshot_20260911_110423_Termux.jpg)
+
+Defensive / Authorized Security Assessment Toolkit
+
+Made by DARK 47
 
 ---
 
-📱 Installation — Termux
+Features
+
+- Target analysis
+- DNS resolution
+- Common TCP port scanning
+- HTTP security-header audit
+- TLS / SSL certificate audit
+- DNS information
+- Local network information
+- Security risk analysis
+- JSON report generation
+- HTML report generation
+- Full authorized security scan
+- Termux / Linux support
+
+---
+
+Installation
 
 1. Update Termux
 
@@ -26,7 +45,7 @@ pkg install python -y
 
 git clone https://github.com/darkfourty7-cyberwarrior/GHOST-.git
 
-5. Enter the project
+5. Enter the folder
 
 cd GHOST-
 
@@ -34,161 +53,54 @@ cd GHOST-
 
 python --version
 
-7. Run GHOST
+7. Run the program
 
-python GHOST.py
-
----
-
-🖥️ Usage
-
-After launching the console, GHOST displays the main menu.
-
-Typical options include:
-
-1. Full Security Scan
-2. Port Scan
-3. Web Security Audit
-4. TLS / SSL Audit
-5. DNS Information
-6. Local Network Information
-7. Generate Report
-8. Exit
-
-Select an option and follow the prompts shown by the console.
+python ghost.py
 
 ---
 
-📊 Security Reports
+Usage
 
-GHOST can generate reports for completed assessments.
+Start the program:
 
-JSON Report
+python ghost.py
+
+The console provides options for authorized security assessment, including port scanning, web security checks, TLS inspection, DNS information, and report generation.
+
+---
+
+Reports
+
+GHOST can generate:
 
 ghost_security_report.json
 
-HTML Report
+and:
 
 ghost_security_report.html
 
-The reports can be opened later for reviewing scan results.
+---
+
+Security
+
+Use this project only for systems you own or have explicit permission to test.
+
+Do not scan or assess unauthorized systems, networks, or websites.
 
 ---
 
-🔍 What GHOST Checks
+Disclaimer
 
-🌐 Network
+GHOST Security Console is provided for educational and authorized defensive security assessment purposes only.
 
-GHOST can resolve a target and check selected common TCP ports.
-
-🔐 Web Security
-
-The web audit checks for commonly recommended HTTP security headers and can identify whether a website is being accessed over plain HTTP.
-
-🛡️ TLS / SSL
-
-The TLS audit provides information about the HTTPS/TLS connection and certificate.
-
-📡 DNS
-
-DNS information can be collected for the selected target.
-
-⚠️ Risk Analysis
-
-GHOST provides basic defensive risk observations based on the information collected during an assessment.
+The author is not responsible for misuse of this software or for activity performed without proper authorization.
 
 ---
 
-📦 Requirements
-
-- Python 3
-- Internet/network access when performing remote assessments
-- Termux, Linux, or another Python-compatible environment
-
-The project uses Python standard-library modules, so no large dependency installation is required.
-
----
-
-🛠️ Project Structure
-
-GHOST-/
-├── README.md
-├── Screenshot_20260911_110423_Termux.jpg
-└── <Python source file>
-
-The exact Python source filename depends on the file included in the repository.
-
----
-
-⚡ Quick Start
-
-If Git and Python are already installed:
-
-git clone https://github.com/darkfourty7-cyberwarrior/GHOST-.git
-
-cd GHOST-
-
-python GHOST.py
-
----
-
-🛡️ Responsible Use
-
-GHOST is intended for:
-
-- Authorized penetration testing
-- Defensive security assessment
-- Security learning
-- Lab environments
-- Testing systems you own
-- Testing systems where you have explicit permission
-
-Do not scan or assess systems, websites, networks, or devices without authorization.
-
----
-
-⚠️ Disclaimer
-
-GHOST Security Console is provided for educational and authorized defensive security purposes only.
-
-The author is not responsible for misuse, unauthorized scanning, damage, data loss, service disruption, or any illegal activity performed using this software.
-
-Always obtain appropriate authorization before conducting security assessments.
-
----
-
-👤 Author
+Author
 
 DARK 47
 
-GHOST SECURITY CONSOLE
+GHOST@DARK47
 
-Made by DARK 47 🛡️
-
----
-
-⭐ Support the Project
-
-If you find GHOST useful:
-
-- ⭐ Star the repository
-- 🐛 Report bugs
-- 💡 Suggest improvements
-- 🔧 Contribute improvements
-- 📢 Share the project responsibly
-
----
-
-🔗 Repository
-
-GHOST Security Console
-
-"https://github.com/darkfourty7-cyberwarrior/GHOST-.git"
-
----
-
-👻 GHOST SECURITY CONSOLE
-
-"DEFENSIVE • AUTHORIZED • SECURITY ASSESSMENT"
-
-Made by DARK 47
+Made by DARK 47 👻
