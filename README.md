@@ -55,7 +55,7 @@ python --version
 
 7️⃣ Run the program
 
-python ghost.py
+python 'Dark GHOST.PY'
 
 ---
 
