@@ -6,6 +6,9 @@ import json
 import os
 import re
 import sys
+import random
+import time
+import shutil
 import urllib.request
 import urllib.error
 from datetime import datetime
@@ -28,6 +31,78 @@ CYAN = "\033[96m"
 WHITE = "\033[97m"
 GRAY = "\033[90m"
 BOLD = "\033[1m"
+
+
+# ============================================================
+# BLUE MATRIX RAIN STARTUP
+# ============================================================
+
+def matrix_rain(duration=3):
+    chars = "01ABCDEFGHIJKLMNOPQRSTUVWXYZ#$%&@"
+
+    width = shutil.get_terminal_size((80, 24)).columns
+    height = shutil.get_terminal_size((80, 24)).lines
+
+    drops = [
+        random.randint(-height, 0)
+        for _ in range(width)
+    ]
+
+    start_time = time.time()
+
+    hide_cursor = "\033[?25l"
+    show_cursor = "\033[?25h"
+
+    try:
+        print(hide_cursor, end="")
+
+        while time.time() - start_time < duration:
+
+            print("\033[2J\033[H", end="")
+
+            for row in range(height):
+                line = []
+
+                for col in range(width):
+                    drop = drops[col]
+
+                    if drop == row:
+                        line.append(
+                            "\033[96m"
+                            + random.choice(chars)
+                            + "\033[0m"
+                        )
+
+                    elif drop - 1 == row:
+                        line.append(
+                            "\033[94m"
+                            + random.choice(chars)
+                            + "\033[0m"
+                        )
+
+                    elif drop - 2 == row:
+                        line.append(
+                            "\033[34m"
+                            + random.choice(chars)
+                            + "\033[0m"
+                        )
+
+                    else:
+                        line.append(" ")
+
+                print("".join(line))
+
+            for col in range(width):
+                drops[col] += 1
+
+                if drops[col] > height + random.randint(0, 8):
+                    drops[col] = random.randint(-10, 0)
+
+            time.sleep(0.05)
+
+    finally:
+        print(show_cursor, end="")
+        print("\033[2J\033[H", end="")
 
 
 # ============================================================
@@ -1094,4 +1169,5 @@ def menu():
 # ============================================================
 
 if __name__ == "__main__":
+    matrix_rain(3)
     menu()
